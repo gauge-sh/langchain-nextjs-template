@@ -1,7 +1,7 @@
 {
-  "purpose": "Provisioning plan, not an API request or proof of live resources",
-  "projectKey": null,
-  "environmentKey": null,
+  "purpose": "Provisioned fixture plan; actual live state is recorded in live-verification.json",
+  "projectKey": "default",
+  "environmentKey": "test",
   "configKey": "gauge-eval-20260928-model-switch",
   "mode": "agent",
   "initialVariation": "baseline",
