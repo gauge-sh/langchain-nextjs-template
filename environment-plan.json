@@ -1,0 +1,13 @@
+{
+  "status": "needs-environment-setup",
+  "prerequisites": [
+    "Dedicated graph plus triage, billing, and orders agent configs; graph capability and SDK support verified.",
+    "Verify current graph SDK package/version and deterministic provider-handler compatibility before pilot."
+  ],
+  "project": "default",
+  "environment": "test",
+  "ownedResourcePrefix": "gauge-jobs-20260928-agent-graph",
+  "resetRequired": true,
+  "sampleIsolation": "Provision a unique prefix per concurrent sample, or reset and verify between sequential samples.",
+  "verifiedLive": false
+}
