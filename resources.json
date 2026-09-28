@@ -1,0 +1,21 @@
+{
+  "project": "default",
+  "environment": "test",
+  "agentcontrol": "gauge-eval-20260928-token-usage",
+  "customerRouting": {
+    "key": "gauge-eval-20260928-beta-targeting",
+    "expected": {
+      "beta-org": "candidate",
+      "standard-org": "baseline"
+    }
+  },
+  "tools": {
+    "key": "gauge-eval-20260928-tool-block",
+    "allowed": "lookup_order",
+    "excluded": "refund_order"
+  },
+  "disabled": "gauge-eval-20260928-disabled",
+  "missing": "gauge-eval-20260928-fallback",
+  "chatFlag": "ld-example-kill-switch-third-party-chat",
+  "contextKind": "organization"
+}
