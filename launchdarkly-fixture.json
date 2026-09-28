@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "case": "beta-targeting",
+  "evalId": "cmu69qt9x002901gdsim8t45r",
+  "readiness": "local-verified-live-blocked",
+  "projectKey": null,
+  "environmentKey": null,
+  "configKey": "gauge-eval-20260928-beta-targeting",
+  "betaOrganization": "beta-org",
+  "standardOrganization": "standard-org",
+  "expectedVariation": "baseline",
+  "expectedEnabled": true,
+  "requestTool": null,
+  "requiredCredentialVariables": [
+    "LAUNCHDARKLY_SDK_KEY"
+  ],
+  "requiresScopedControlAccess": true,
+  "task": "Serve candidate to beta-org and keep baseline for standard-org and all other organizations.",
+  "remotePrerequisites": [
+    "Confirm dedicated project/environment identifiers.",
+    "Allocate unique config resources for each concurrent run and record them in this manifest.",
+    "Validate server-side SDK credential.",
+    "Create agent-mode baseline and candidate variations with identical instructions and model names gpt-4o-mini/gpt-4o, using the deterministic provider.",
+    "Apply and verify the expected initial variation/enabled state.",
+    "For remote-control tasks, provide scoped targeting access; an SDK key alone does not grant write access."
+  ]
+}
