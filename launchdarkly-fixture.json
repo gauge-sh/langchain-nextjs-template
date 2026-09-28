@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "case": "tool-block",
+  "evalId": "cmu69qv9g003101hda1m2vgkm",
+  "readiness": "local-verified-live-blocked",
+  "projectKey": null,
+  "environmentKey": null,
+  "configKey": "gauge-eval-20260928-tool-block",
+  "betaOrganization": "beta-org",
+  "standardOrganization": "standard-org",
+  "expectedVariation": "baseline",
+  "expectedEnabled": true,
+  "requestTool": "refund_order",
+  "requiredCredentialVariables": [
+    "LAUNCHDARKLY_SDK_KEY"
+  ],
+  "requiresScopedControlAccess": false,
+  "task": "Reject refund_order at dispatch because only lookup_order is attached to the evaluated config. Keep argument validation.",
+  "remotePrerequisites": [
+    "Confirm dedicated project/environment identifiers.",
+    "Allocate unique config resources for each concurrent run and record them in this manifest.",
+    "Validate server-side SDK credential.",
+    "Create agent-mode baseline and candidate variations with identical instructions and model names gpt-4o-mini/gpt-4o, using the deterministic provider.",
+    "Only lookup_order may be attached for tool-block.",
+    "Apply and verify the expected initial variation/enabled state.",
+    "For remote-control tasks, provide scoped targeting access; an SDK key alone does not grant write access."
+  ]
+}
