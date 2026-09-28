@@ -2,9 +2,9 @@
   "schemaVersion": 1,
   "case": "token-usage",
   "evalId": "cmu69qvw0002j01gdlkb0oc7i",
-  "readiness": "local-verified-live-blocked",
-  "projectKey": null,
-  "environmentKey": null,
+  "readiness": "live-verified-pilot-ready",
+  "projectKey": "default",
+  "environmentKey": "test",
   "configKey": "gauge-eval-20260928-token-usage",
   "betaOrganization": "beta-org",
   "standardOrganization": "standard-org",
@@ -17,11 +17,8 @@
   "requiresScopedControlAccess": false,
   "task": "Record the deterministic provider usage through the tracker for the evaluated config once. Capture records show SDK track calls, not proof of dashboard ingestion.",
   "remotePrerequisites": [
-    "Confirm dedicated project/environment identifiers.",
-    "Allocate unique config resources for each concurrent run and record them in this manifest.",
-    "Validate server-side SDK credential.",
-    "Create agent-mode baseline and candidate variations with identical instructions and model names gpt-4o-mini/gpt-4o, using the deterministic provider.",
-    "Apply and verify the expected initial variation/enabled state.",
-    "For remote-control tasks, provide scoped targeting access; an SDK key alone does not grant write access."
+    "Run npm run preflight to confirm the expected initial SDK state before starting.",
+    "Only use the designated config in default/test. Do not change variation contents or unrelated resources.",
+    "Run one sample at a time per config; reset targeting to the recorded initial state before rerunning."
   ]
 }

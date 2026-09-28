@@ -1,0 +1,23 @@
+{
+  "projectKey": "default",
+  "environmentKey": "test",
+  "configKey": "gauge-eval-20260928-token-usage",
+  "setupRunId": "cmultif00000s01evy3zz896r",
+  "verifiedAt": "2026-09-28",
+  "contexts": {
+    "beta-org": {
+      "enabled": true,
+      "variationKey": "baseline",
+      "modelName": "gpt-4o-mini",
+      "instructions": "Help with test orders.",
+      "toolMapNames": []
+    },
+    "standard-org": {
+      "enabled": true,
+      "variationKey": "baseline",
+      "modelName": "gpt-4o-mini",
+      "instructions": "Help with test orders.",
+      "toolMapNames": []
+    }
+  }
+}
