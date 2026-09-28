@@ -1,0 +1,26 @@
+{
+  "project": "default",
+  "environment": "test",
+  "flagKey": "gauge-jobs-20260928-conversion-events",
+  "kind": "boolean",
+  "unrelatedFlag": "fixture-unrelated-chat",
+  "localFlags": [
+    {
+      "key": "gauge-jobs-20260928-conversion-events",
+      "values": [
+        false,
+        true
+      ],
+      "initial": 0
+    },
+    {
+      "key": "fixture-unrelated-chat",
+      "values": [
+        false,
+        true
+      ],
+      "initial": 1
+    }
+  ],
+  "readiness": "fixture-prepared"
+}
