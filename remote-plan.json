@@ -1,0 +1,65 @@
+{
+  "purpose": "Provisioning plan, not an API request or proof of live resources",
+  "projectKey": null,
+  "environmentKey": null,
+  "configKey": "gauge-eval-20260928-disabled",
+  "mode": "agent",
+  "initialVariation": null,
+  "enabled": false,
+  "variations": [
+    {
+      "key": "baseline",
+      "instructions": "Help with test orders.",
+      "model": {
+        "name": "gpt-4o-mini"
+      },
+      "provider": {
+        "name": "OpenAI"
+      },
+      "tools": {
+        "lookup_order": {
+          "name": "lookup_order",
+          "description": "Look up a test order",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "orderId": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "orderId"
+            ]
+          }
+        }
+      }
+    },
+    {
+      "key": "candidate",
+      "instructions": "Help with test orders.",
+      "model": {
+        "name": "gpt-4o"
+      },
+      "provider": {
+        "name": "OpenAI"
+      },
+      "tools": {
+        "lookup_order": {
+          "name": "lookup_order",
+          "description": "Look up a test order",
+          "parameters": {
+            "type": "object",
+            "properties": {
+              "orderId": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "orderId"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
