@@ -1,0 +1,12 @@
+{
+  "status": "needs-environment-setup",
+  "prerequisites": [
+    "Boolean flag, off by default; organization contexts beta-org (beta=true), standard-org (beta=false)."
+  ],
+  "project": "default",
+  "environment": "test",
+  "ownedResourcePrefix": "gauge-jobs-20260928-feature-targeting",
+  "resetRequired": true,
+  "sampleIsolation": "Provision a unique prefix per concurrent sample, or reset and verify between sequential samples.",
+  "verifiedLive": false
+}
