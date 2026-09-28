@@ -1,0 +1,6 @@
+{
+  "synthetic": true,
+  "before": "baseline only",
+  "after": "baseline 80%; candidate 20%",
+  "incident": "checkout errors increased after candidate rollout"
+}
