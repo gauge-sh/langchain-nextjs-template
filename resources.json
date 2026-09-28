@@ -1,0 +1,54 @@
+{
+  "project": "default",
+  "environment": "test",
+  "flagKey": "gauge-jobs-20260928-ai-experiment",
+  "kind": "boolean",
+  "unrelatedFlag": "fixture-unrelated-chat",
+  "localFlags": [
+    {
+      "key": "gauge-jobs-20260928-ai-experiment",
+      "values": [
+        {
+          "instructions": "Help with test orders.",
+          "model": {
+            "name": "gpt-4o-mini"
+          },
+          "provider": {
+            "name": "OpenAI"
+          },
+          "_ldMeta": {
+            "enabled": true,
+            "mode": "agent",
+            "variationKey": "baseline",
+            "version": 1
+          }
+        },
+        {
+          "instructions": "Help with test orders.",
+          "model": {
+            "name": "gpt-4o"
+          },
+          "provider": {
+            "name": "OpenAI"
+          },
+          "_ldMeta": {
+            "enabled": true,
+            "mode": "agent",
+            "variationKey": "candidate",
+            "version": 1
+          }
+        }
+      ],
+      "initial": 0
+    },
+    {
+      "key": "fixture-unrelated-chat",
+      "values": [
+        false,
+        true
+      ],
+      "initial": 1
+    }
+  ],
+  "readiness": "needs-environment-setup"
+}
