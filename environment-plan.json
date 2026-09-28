@@ -1,0 +1,14 @@
+{
+  "status": "needs-environment-setup",
+  "prerequisites": [
+    "Boolean checkout flag initially false; checkout_error occurrence metric and request exposure verified.",
+    "Guarded rollout entitlement and organization randomization eligibility must be verified.",
+    "Release brief: 10%, 50%, 100% over 60 minutes; checkout error rate guardrail, relative regression threshold 20%. Verify supported API representation before provisioning."
+  ],
+  "project": "default",
+  "environment": "test",
+  "ownedResourcePrefix": "gauge-jobs-20260928-guarded-release",
+  "resetRequired": true,
+  "sampleIsolation": "Provision a unique prefix per concurrent sample, or reset and verify between sequential samples.",
+  "verifiedLive": false
+}
