@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "case": "fallback",
+  "evalId": "cmu69quu4002e01gddg4nprzv",
+  "readiness": "local-verified-live-blocked",
+  "projectKey": null,
+  "environmentKey": null,
+  "configKey": "gauge-eval-20260928-fallback",
+  "betaOrganization": "beta-org",
+  "standardOrganization": "standard-org",
+  "expectedVariation": null,
+  "expectedEnabled": false,
+  "requestTool": null,
+  "requiredCredentialVariables": [
+    "LAUNCHDARKLY_SDK_KEY"
+  ],
+  "requiresScopedControlAccess": false,
+  "task": "Set a disabled fallback for the nonexistent config key. The SDK client must initialize successfully first.",
+  "remotePrerequisites": [
+    "Confirm dedicated project/environment identifiers.",
+    "Allocate unique config resources for each concurrent run and record them in this manifest.",
+    "Validate server-side SDK credential.",
+    "Keep the fallback config key nonexistent.",
+    "For remote-control tasks, provide scoped targeting access; an SDK key alone does not grant write access."
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "purpose": "Provisioning plan, not an API request or proof of live resources",
+  "projectKey": null,
+  "environmentKey": null,
+  "configKey": "gauge-eval-20260928-fallback",
+  "mode": "agent",
+  "initialVariation": null,
+  "enabled": false,
+  "variations": []
+}
