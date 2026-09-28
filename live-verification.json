@@ -1,0 +1,24 @@
+{
+  "projectKey": "default",
+  "environmentKey": "test",
+  "configKey": "gauge-eval-20260928-disabled",
+  "setupRunId": "cmultif00000s01evy3zz896r",
+  "verifiedAt": "2026-09-28",
+  "contexts": {
+    "beta-org": {
+      "enabled": false,
+      "variationKey": "",
+      "modelName": null,
+      "instructions": null,
+      "toolMapNames": []
+    },
+    "standard-org": {
+      "enabled": false,
+      "variationKey": "",
+      "modelName": null,
+      "instructions": null,
+      "toolMapNames": []
+    }
+  },
+  "sdkCaveat": "The built-in disabled variation lacks agent-mode metadata. AI SDK 2.0.7 warns about a mode mismatch and returns disabled. Preflight requires a real, existing disabled flag value; authentication or missing-key fallback is not accepted."
+}
