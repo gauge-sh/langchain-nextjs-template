@@ -1,0 +1,18 @@
+{
+  "name": "launchdarkly-agentcontrol-eval-fixture",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "engines": { "node": ">=22 <23" },
+  "scripts": {
+    "start": "node --import tsx src/server.ts",
+    "preflight": "node --import tsx src/preflight.ts",
+    "typecheck": "tsc --noEmit",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "@launchdarkly/node-server-sdk": "9.13.7",
+    "@launchdarkly/server-sdk-ai": "2.0.7"
+  },
+  "devDependencies": { "tsx": "4.20.6", "typescript": "5.9.2", "@types/node": "22.18.6" }
+}
