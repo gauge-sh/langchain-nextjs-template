@@ -1,0 +1,12 @@
+{
+  "status": "needs-environment-setup",
+  "prerequisites": [
+    "String search flag with baseline and candidate; candidate initially selected; release-history.json records baseline as previous good version."
+  ],
+  "project": "default",
+  "environment": "test",
+  "ownedResourcePrefix": "gauge-jobs-20260928-feature-rollback",
+  "resetRequired": true,
+  "sampleIsolation": "Provision a unique prefix per concurrent sample, or reset and verify between sequential samples.",
+  "verifiedLive": false
+}
