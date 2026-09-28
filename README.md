@@ -14,7 +14,9 @@ For changes without redeployment, keep this process running while changing targe
 
 ## Environment readiness
 
-Live verification is blocked. `launchdarkly-fixture.json` lists the required isolated remote resources and expected starting state. Project/environment identifiers and control access are not yet supplied. The existing Gauge credential returned HTTP 403 on September 28, 2026. Do not treat local tests as a live product pass. If preflight fails, report an environment blocker and stop. Do not use production resources or log credentials.
+Live SDK access and the initial configuration state were verified on September 28, 2026. Use project `default` (Gauge Test), environment `test`, and only the config named in `launchdarkly-fixture.json`. `live-verification.json` records both organization contexts. Run `npm run preflight` before the task. If the state differs, stop and report an environment blocker; do not silently reset or alter other resources.
+
+Model-switch, beta-targeting, and rollback receive `LAUNCHDARKLY_API_KEY` for targeting changes at `https://app.launchdarkly.com/api/v2/projects/default/ai-configs/{configKey}/targeting`, using `Authorization: <token>` with no Bearer prefix. The JSON semantic patch includes environmentKey `test`. Use official API documentation to determine the required action. Only the designated config may be changed. Preserve its variations. The other cases require only SDK access. Never print credentials.
 
 `npm test` checks the real SDK using LaunchDarkly TestData, with network event delivery disabled; it verifies fixture plumbing, not the task outcome. Captured tracking calls establish SDK event submission, not receipt in LaunchDarkly's dashboard. Remote state must be reset before each sample. Until per-run resources exist, run sequentially only.
 
