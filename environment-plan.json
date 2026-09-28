@@ -1,0 +1,13 @@
+{
+  "status": "needs-environment-setup",
+  "prerequisites": [
+    "Dedicated two-stage migration flag initialized to off; target complete stage selects new adapter.",
+    "Old and new adapters contain equivalent test records; no production data or writes involved."
+  ],
+  "project": "default",
+  "environment": "test",
+  "ownedResourcePrefix": "gauge-jobs-20260928-backend-migration",
+  "resetRequired": true,
+  "sampleIsolation": "Provision a unique prefix per concurrent sample, or reset and verify between sequential samples.",
+  "verifiedLive": false
+}
