@@ -14,7 +14,7 @@ For changes without redeployment, keep this process running while changing targe
 
 ## Environment readiness
 
-Live verification is blocked. `launchdarkly-fixture.json` lists the required isolated remote resources and expected starting state. Project/environment identifiers and control access are not yet supplied. The existing Gauge credential returned HTTP 403 on September 28, 2026. Do not treat local tests as a live product pass. If preflight fails, report an environment blocker and stop. Do not use production resources or log credentials.
+SDK authentication was verified on September 28, 2026 using the Gauge connection `launchdarkly-sdk`. This case deliberately requires no existing AgentControl configuration and no control-plane write access. The project/environment fields are informational and not needed to evaluate the absent key. Run `npm run preflight` to confirm successful SDK initialization and FLAG_NOT_FOUND for the key in `launchdarkly-fixture.json`. If that check fails, report an environment blocker and stop. Do not create this key, use production resources, or log credentials.
 
 `npm test` checks the real SDK using LaunchDarkly TestData, with network event delivery disabled; it verifies fixture plumbing, not the task outcome. Captured tracking calls establish SDK event submission, not receipt in LaunchDarkly's dashboard. Remote state must be reset before each sample. Until per-run resources exist, run sequentially only.
 
