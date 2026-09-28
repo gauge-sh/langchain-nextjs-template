@@ -1,0 +1,12 @@
+{
+  "status": "needs-environment-setup",
+  "prerequisites": [
+    "Boolean checkout flag initially true; off value false selects legacy checkout."
+  ],
+  "project": "default",
+  "environment": "test",
+  "ownedResourcePrefix": "gauge-jobs-20260928-kill-switch",
+  "resetRequired": true,
+  "sampleIsolation": "Provision a unique prefix per concurrent sample, or reset and verify between sequential samples.",
+  "verifiedLive": false
+}
