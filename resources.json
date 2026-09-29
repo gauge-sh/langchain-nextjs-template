@@ -1,12 +1,12 @@
 {
   "project": "default",
   "environment": "test",
-  "flagKey": "gauge-jobs-20260928-kill-switch",
+  "flagKey": "gauge-matrix-20260928-kill-switch-kimi",
   "kind": "boolean",
   "unrelatedFlag": "fixture-unrelated-chat",
   "localFlags": [
     {
-      "key": "gauge-jobs-20260928-kill-switch",
+      "key": "gauge-matrix-20260928-kill-switch-kimi",
       "values": [
         false,
         true
@@ -22,5 +22,6 @@
       "initial": 1
     }
   ],
-  "readiness": "needs-environment-setup"
+  "readiness": "needs-environment-setup",
+  "sessionNamespace": "gauge-matrix-20260928-kill-switch-kimi"
 }
