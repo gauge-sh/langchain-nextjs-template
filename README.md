@@ -2,7 +2,7 @@
 
 Working checkout gate with request/error event instrumentation and release brief.
 
-Release intent: 10%, 50%, 100% over 60 minutes. Monitor checkout errors; roll back if relative error-rate regression reaches 20%. This is a configuration task, not a requirement to generate a significant live regression.
+Release intent: expand new checkout gradually, monitor checkout errors, and enable automatic rollback using supported default regression detection settings. This is a configuration task, not a requirement to generate a significant live regression.
 
 ## Working environment
 
