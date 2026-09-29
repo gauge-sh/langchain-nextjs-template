@@ -3,7 +3,7 @@
   "prerequisites": [
     "Boolean checkout flag initially false; checkout_error occurrence metric and request exposure verified.",
     "Guarded rollout entitlement and organization randomization eligibility must be verified.",
-    "Release brief: 10%, 50%, 100% over 60 minutes; checkout error rate guardrail, relative regression threshold 20%. Verify supported API representation before provisioning."
+    "Use supported default regression detection settings; no custom relative threshold is required."
   ],
   "project": "default",
   "environment": "test",

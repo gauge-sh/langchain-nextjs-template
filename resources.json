@@ -24,5 +24,5 @@
   ],
   "readiness": "needs-environment-setup",
   "sessionNamespace": "gauge-matrix-20260928-guarded-release-sol",
-  "metricKey": "gauge-matrix-20260928-guarded-release-sol-checkout-error"
+  "metricKey": "gauge-matrix-20260928-guarded-release-metric-sol"
 }
