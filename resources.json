@@ -1,12 +1,12 @@
 {
   "project": "default",
   "environment": "test",
-  "flagKey": "gauge-jobs-20260928-product-experiment",
+  "flagKey": "gauge-matrix-20260928-product-experiment-opus",
   "kind": "string",
   "unrelatedFlag": "fixture-unrelated-chat",
   "localFlags": [
     {
-      "key": "gauge-jobs-20260928-product-experiment",
+      "key": "gauge-matrix-20260928-product-experiment-opus",
       "values": [
         "baseline",
         "candidate"
@@ -22,5 +22,7 @@
       "initial": 1
     }
   ],
-  "readiness": "needs-environment-setup"
+  "readiness": "needs-environment-setup",
+  "sessionNamespace": "gauge-matrix-20260928-product-experiment-opus",
+  "metricKey": "gauge-matrix-20260928-product-experiment-opus-signup-completed"
 }
