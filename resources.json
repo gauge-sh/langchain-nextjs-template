@@ -25,9 +25,9 @@
   "readiness": "needs-environment-setup",
   "graphKey": "gauge-matrix-20260928-agent-graph-qwen",
   "agentKeys": [
-    "gauge-matrix-20260928-agent-graph-qwen-triage",
-    "gauge-matrix-20260928-agent-graph-qwen-billing",
-    "gauge-matrix-20260928-agent-graph-qwen-orders"
+    "gauge-matrix-20260928-agent-graph-triage-qwen",
+    "gauge-matrix-20260928-agent-graph-billing-qwen",
+    "gauge-matrix-20260928-agent-graph-orders-qwen"
   ],
   "sessionNamespace": "gauge-matrix-20260928-agent-graph-qwen"
 }
