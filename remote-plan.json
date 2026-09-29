@@ -2,7 +2,7 @@
   "purpose": "Provisioned fixture plan; actual live state is recorded in live-verification.json",
   "projectKey": "default",
   "environmentKey": "test",
-  "configKey": "gauge-eval-20260928-model-switch",
+  "configKey": "gauge-matrix-20260928-model-switch-opus",
   "mode": "agent",
   "initialVariation": "baseline",
   "enabled": true,

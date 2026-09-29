@@ -5,7 +5,7 @@
   "readiness": "live-verified-pilot-ready",
   "projectKey": "default",
   "environmentKey": "test",
-  "configKey": "gauge-eval-20260928-model-switch",
+  "configKey": "gauge-matrix-20260928-model-switch-opus",
   "betaOrganization": "beta-org",
   "standardOrganization": "standard-org",
   "expectedVariation": "baseline",
