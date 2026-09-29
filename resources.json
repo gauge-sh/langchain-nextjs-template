@@ -52,5 +52,5 @@
   ],
   "readiness": "needs-environment-setup",
   "sessionNamespace": "gauge-matrix-20260928-ai-experiment-opus",
-  "metricKey": "gauge-matrix-20260928-ai-experiment-opus-support-resolved"
+  "metricKey": "gauge-matrix-20260928-ai-experiment-metric-opus"
 }
