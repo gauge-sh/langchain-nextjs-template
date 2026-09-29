@@ -1,12 +1,12 @@
 {
   "project": "default",
   "environment": "test",
-  "flagKey": "gauge-jobs-20260928-agent-graph",
+  "flagKey": "gauge-matrix-20260928-agent-graph-minimax",
   "kind": "boolean",
   "unrelatedFlag": "fixture-unrelated-chat",
   "localFlags": [
     {
-      "key": "gauge-jobs-20260928-agent-graph",
+      "key": "gauge-matrix-20260928-agent-graph-minimax",
       "values": [
         false,
         true
@@ -23,10 +23,11 @@
     }
   ],
   "readiness": "needs-environment-setup",
-  "graphKey": "gauge-jobs-20260928-agent-graph",
+  "graphKey": "gauge-matrix-20260928-agent-graph-minimax",
   "agentKeys": [
-    "gauge-jobs-20260928-agent-graph-triage",
-    "gauge-jobs-20260928-agent-graph-billing",
-    "gauge-jobs-20260928-agent-graph-orders"
-  ]
+    "gauge-matrix-20260928-agent-graph-minimax-triage",
+    "gauge-matrix-20260928-agent-graph-minimax-billing",
+    "gauge-matrix-20260928-agent-graph-minimax-orders"
+  ],
+  "sessionNamespace": "gauge-matrix-20260928-agent-graph-minimax"
 }
