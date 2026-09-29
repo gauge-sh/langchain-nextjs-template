@@ -2,7 +2,7 @@
 
 Working local triage/specialist handlers; workflow routing is hardcoded.
 
-Existing handlers cover triage, billing, and orders with deterministic responses. Model calls are simulated. This case targets the graph-capable AI SDK generation, not the legacy AI package: package/version and remote graph readiness must be verified before pilot. The current hardcoded workflow is the behavior to migrate.
+Existing handlers cover triage, billing, and orders with deterministic responses. Model calls are simulated. The pinned AI SDK 2.0.7 exposes agentGraph and AgentGraphDefinition; remote graph readiness must be verified before pilot. The current hardcoded workflow is the behavior to migrate.
 
 ## Working environment
 
