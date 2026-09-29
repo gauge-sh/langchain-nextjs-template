@@ -25,9 +25,9 @@
   "readiness": "needs-environment-setup",
   "graphKey": "gauge-matrix-20260928-agent-graph-kimi",
   "agentKeys": [
-    "gauge-matrix-20260928-agent-graph-kimi-triage",
-    "gauge-matrix-20260928-agent-graph-kimi-billing",
-    "gauge-matrix-20260928-agent-graph-kimi-orders"
+    "gauge-matrix-20260928-agent-graph-triage-kimi",
+    "gauge-matrix-20260928-agent-graph-billing-kimi",
+    "gauge-matrix-20260928-agent-graph-orders-kimi"
   ],
   "sessionNamespace": "gauge-matrix-20260928-agent-graph-kimi"
 }
