@@ -25,9 +25,9 @@
   "readiness": "needs-environment-setup",
   "graphKey": "gauge-matrix-20260928-agent-graph-minimax",
   "agentKeys": [
-    "gauge-matrix-20260928-agent-graph-minimax-triage",
-    "gauge-matrix-20260928-agent-graph-minimax-billing",
-    "gauge-matrix-20260928-agent-graph-minimax-orders"
+    "gauge-matrix-20260928-agent-graph-triage-minimax",
+    "gauge-matrix-20260928-agent-graph-billing-minimax",
+    "gauge-matrix-20260928-agent-graph-orders-minimax"
   ],
   "sessionNamespace": "gauge-matrix-20260928-agent-graph-minimax"
 }
