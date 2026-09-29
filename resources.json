@@ -25,9 +25,9 @@
   "readiness": "needs-environment-setup",
   "graphKey": "gauge-matrix-20260928-agent-graph-glm",
   "agentKeys": [
-    "gauge-matrix-20260928-agent-graph-glm-triage",
-    "gauge-matrix-20260928-agent-graph-glm-billing",
-    "gauge-matrix-20260928-agent-graph-glm-orders"
+    "gauge-matrix-20260928-agent-graph-triage-glm",
+    "gauge-matrix-20260928-agent-graph-billing-glm",
+    "gauge-matrix-20260928-agent-graph-orders-glm"
   ],
   "sessionNamespace": "gauge-matrix-20260928-agent-graph-glm"
 }
