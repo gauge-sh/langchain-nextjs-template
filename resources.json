@@ -25,9 +25,9 @@
   "readiness": "needs-environment-setup",
   "graphKey": "gauge-matrix-20260928-agent-graph-sol",
   "agentKeys": [
-    "gauge-matrix-20260928-agent-graph-sol-triage",
-    "gauge-matrix-20260928-agent-graph-sol-billing",
-    "gauge-matrix-20260928-agent-graph-sol-orders"
+    "gauge-matrix-20260928-agent-graph-triage-sol",
+    "gauge-matrix-20260928-agent-graph-billing-sol",
+    "gauge-matrix-20260928-agent-graph-orders-sol"
   ],
   "sessionNamespace": "gauge-matrix-20260928-agent-graph-sol"
 }
