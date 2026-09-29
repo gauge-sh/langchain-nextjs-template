@@ -25,9 +25,9 @@
   "readiness": "needs-environment-setup",
   "graphKey": "gauge-matrix-20260928-agent-graph-opus",
   "agentKeys": [
-    "gauge-matrix-20260928-agent-graph-opus-triage",
-    "gauge-matrix-20260928-agent-graph-opus-billing",
-    "gauge-matrix-20260928-agent-graph-opus-orders"
+    "gauge-matrix-20260928-agent-graph-triage-opus",
+    "gauge-matrix-20260928-agent-graph-billing-opus",
+    "gauge-matrix-20260928-agent-graph-orders-opus"
   ],
   "sessionNamespace": "gauge-matrix-20260928-agent-graph-opus"
 }
