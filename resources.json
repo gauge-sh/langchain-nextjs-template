@@ -25,9 +25,9 @@
   "readiness": "needs-environment-setup",
   "graphKey": "gauge-matrix-20260928-agent-graph-deepseek",
   "agentKeys": [
-    "gauge-matrix-20260928-agent-graph-deepseek-triage",
-    "gauge-matrix-20260928-agent-graph-deepseek-billing",
-    "gauge-matrix-20260928-agent-graph-deepseek-orders"
+    "gauge-matrix-20260928-agent-graph-triage-deepseek",
+    "gauge-matrix-20260928-agent-graph-billing-deepseek",
+    "gauge-matrix-20260928-agent-graph-orders-deepseek"
   ],
   "sessionNamespace": "gauge-matrix-20260928-agent-graph-deepseek"
 }
