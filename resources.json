@@ -52,5 +52,5 @@
   ],
   "readiness": "needs-environment-setup",
   "sessionNamespace": "gauge-matrix-20260928-ai-experiment-deepseek",
-  "metricKey": "gauge-matrix-20260928-ai-experiment-deepseek-support-resolved"
+  "metricKey": "gauge-matrix-20260928-ai-experiment-metric-deepseek"
 }
